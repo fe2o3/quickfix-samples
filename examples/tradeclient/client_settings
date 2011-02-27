@@ -1,0 +1,20 @@
+ # default settings for sessions
+  [DEFAULT]
+  ConnectionType=initiator
+  SenderCompID=rustyclient
+  SocketNodelay=Y
+  FileStorePath=files
+  HeartBtInt=10
+  ReconnectInterval=10
+
+  # session definition
+  [SESSION]
+  # inherit some stuff from above
+  BeginString=FIX.4.1
+  TargetCompID=ordermatchserver
+  StartTime=12:30:00
+  EndTime=23:30:00
+  DataDictionary=..\..\spec\FIX41.xml
+  SocketConnectPort=9824
+  SocketConnectHost=127.0.0.1
+  
