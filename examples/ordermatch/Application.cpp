@@ -47,7 +47,7 @@ void Application::onMessage( const FIX42::NewOrderSingle& message, const FIX::Se
   FIX::Symbol symbol;
   FIX::Side side;
   FIX::OrdType ordType;
-  FIX::Price price;
+  FIX::Price price=0;
   FIX::OrderQty orderQty;
   FIX::TimeInForce timeInForce( FIX::TimeInForce_DAY );
 

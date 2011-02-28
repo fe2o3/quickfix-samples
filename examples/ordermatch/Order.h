@@ -102,10 +102,10 @@ private:
 inline std::ostream& operator<<( std::ostream& ostream, const Order& order )
 {
   return ostream
-         << "ID: " << std::setw( 10 ) << "," << order.getClientID()
-         << " OWNER: " << std::setw( 10 ) << "," << order.getOwner()
-         << " PRICE: " << std::setw( 10 ) << "," << order.getPrice()
-         << " QUANTITY: " << std::setw( 10 ) << "," << order.getQuantity();
+         << "ID: " << std::setw( 6 ) << order.getClientID()
+         << " | OWNER: " << std::setw(6 )  << order.getOwner()
+         << " | PRICE: " << std::setw( 6 ) << order.getPrice()
+         << " | QUANTITY: " << std::setw( 6) <<  order.getQuantity();
 }
 
 #endif
