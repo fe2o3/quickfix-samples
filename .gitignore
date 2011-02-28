@@ -1,0 +1,9 @@
+*.ncb
+bin/debug/*
+!.gitignore
+examples/executor/C++/debug/*
+examples/executor/C++/files/*
+examples/ordermatch/files/*
+examples/ordermatch/debug/*
+examples/tradeclient/files/*
+examples/tradeclient/debug/*
