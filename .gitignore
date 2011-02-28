@@ -3,7 +3,10 @@ bin/debug/*
 !.gitignore
 examples/executor/C++/debug/*
 examples/executor/C++/files/*
+!.gitignore
 examples/ordermatch/files/*
+!.gitignore
 examples/ordermatch/debug/*
 examples/tradeclient/files/*
+!.gitignore
 examples/tradeclient/debug/*
